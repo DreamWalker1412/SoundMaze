@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/top"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/down"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/shape"
+        android:text="@string/up"
+        android:textColor="#fff"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape"
+        android:text="@string/down"
+        android:textColor="#fff"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/down"
+        android:layout_toLeftOf="@+id/down"
+        android:background="@drawable/shape"
+        android:text="@string/left"
+        android:textColor="#fff"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/down"
+        android:layout_toRightOf="@+id/down"
+        android:background="@drawable/shape"
+        android:text="@string/right"
+        android:textColor="#fff"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/shape1"
+        android:textColor="#fff"
+        android:text="play" />
+
+    <Button
+        android:id="@+id/btn_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/shape1"
+        android:textColor="#fff"
+        android:text="pause" />
+
+
+
+</RelativeLayout>
