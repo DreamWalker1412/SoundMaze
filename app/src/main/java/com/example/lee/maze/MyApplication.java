@@ -34,7 +34,7 @@ public class MyApplication extends Application {
 
     }
 
-    public void finish_activity(Activity activity) {
+    public void finishActivity(Activity activity) {
         for (Activity activity1 : activities) {
             if (activity1 != activity) {
                 activity1.finish();

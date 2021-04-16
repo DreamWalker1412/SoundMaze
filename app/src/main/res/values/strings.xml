@@ -7,8 +7,9 @@
     <string name="down">down ↓</string>
     <string name="left">left ←</string>
     <string name="right">right →</string>
-    <string name="jianjie">游戏简介：走迷宫是一款益智类经典小游戏</string>
-    <string name="opration">... 操作说明... 通过屏幕下方四个方向键控制行走路线.. 只要将小红点从左上角移动到右下角就视为成功闯关.. 左下角按键播放背景音乐.. 右下角按键暂停背景音乐</string>
-    <string name="help"> ... 欢迎来到迷宫挑战游戏.. 双击屏幕进入游戏.. 游戏中连续三次点击屏幕退出游戏.. 双击返回键返回至该界面.. 单击该界面可听操作说明 </string>
+    <string name="operation">... 操作说明... 通过手势滑动或者屏幕下方四个方向键控制行走路线..  长按屏幕左下方按钮开启音感能力.. 它会指引你前进的方向.. 控制小球移动到迷宫终点.. 双击屏幕进入游戏.</string>
+    <string name="help"> ... 欢迎来到迷宫挑战游戏.. 在音符停止前寻找到迷宫的出口吧!.. 单击该界面可听详细操作说明.. 双击屏幕进入游戏..  </string>
+    <string name="play">ability</string>
+    <string name="pause">pause</string>
 
 </resources>

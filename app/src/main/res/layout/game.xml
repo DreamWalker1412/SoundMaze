@@ -13,11 +13,11 @@
         android:layout_height="60dp"
         android:layout_above="@+id/down"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="60dp"
         android:background="@drawable/shape"
         android:text="@string/up"
         android:textColor="#fff"
-        android:textSize="23dp" />
+        android:textSize="23sp" />
 
     <Button
         android:id="@+id/down"
@@ -25,52 +25,57 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
         android:background="@drawable/shape"
         android:text="@string/down"
         android:textColor="#fff"
-        android:textSize="23dp" />
+        android:textSize="23sp" />
 
     <Button
         android:id="@+id/left"
         android:layout_width="125dp"
         android:layout_height="60dp"
         android:layout_above="@+id/down"
-        android:layout_toLeftOf="@+id/down"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toStartOf="@+id/down"
         android:background="@drawable/shape"
         android:text="@string/left"
         android:textColor="#fff"
-        android:textSize="23dp" />
+        android:textSize="23sp" />
 
     <Button
         android:id="@+id/right"
         android:layout_width="125dp"
         android:layout_height="60dp"
         android:layout_above="@+id/down"
-        android:layout_toRightOf="@+id/down"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@id/down"
         android:background="@drawable/shape"
         android:text="@string/right"
         android:textColor="#fff"
-        android:textSize="23dp" />
+        android:textSize="23sp" />
 
     <Button
-        android:id="@+id/btn_play"
+        android:id="@+id/btn_hint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:background="@drawable/shape1"
         android:textColor="#fff"
-        android:text="play" />
+        android:text="@string/play" />
 
     <Button
         android:id="@+id/btn_pause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:background="@drawable/shape1"
         android:textColor="#fff"
-        android:text="pause" />
+        android:text="@string/pause" />
 
 
 
